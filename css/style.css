@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#corpo{
+
+    display: flex;
+
+}
+
+#ulMenu{
+
+    list-style: none;
+    padding: 0;
+
+}
+
+#ulMenu li{
+
+    margin: 0px 0px 10px 0px;
+
+}
+
+#box{
+
+    flex: 1;
+    padding: 20px;
+
+}
+
+#box div{
+
+    margin: 0px 0px 20px 0px;
+
+}
+
+#notificacoes, 
+#log{
+
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 3px;
+    border-radius: 4px;
+
+} 
+
+button{
+
+    border-radius: 4px;
+    padding: 4px;
+    border: none;
+    box-shadow: 2px 2px 3px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+
+}
+
+button:hover{
+
+    background-color: #ccc;
+
+}
